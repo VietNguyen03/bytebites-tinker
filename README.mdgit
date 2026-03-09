@@ -1,1 +1,7 @@
-# bytebites-tinker initgit add README.mdgit commit -m first commitgit branch -M maingit remote add origin https://github.com/VietNguyen03/bytebites-tinker.gitgit push -u origin main
+The core concept students needed to understand in this activity was Object-Oriented Design (OOD) and how to translate a vague client request into a structured system of classes and methods. 
+
+Students are most likely to struggle with the "Algorithmic Enhancements" phase, specifically logic that requires interacting across different classes, such as having a Transaction object correctly calculate a total from a list of FoodItem objects.
+
+AI was particularly helpful for generating the initial UML diagrams and providing the boilerplate syntax for Python classes and pytest. However, it could be misleading by adding "hallucinated" features or extra classes that weren't in the original specification, requiring the student to strictly enforce constraints. 
+
+To guide a student without giving away the answer, I would ask them to trace the path of a single order: "If a customer picks a burger, which class 'holds' that burger, and which class is responsible for doing the math to find the final price?" This forces the student to reason through the relationships between the FoodItem and Transaction classes themselves.
